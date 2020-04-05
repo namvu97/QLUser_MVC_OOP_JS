@@ -1,0 +1,89 @@
+body {
+    width: 800px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding:.75rem;vertical-align:top;
+}
+
+table {
+    margin-top: 50px;
+    width:100%;
+    margin-bottom:1rem;
+    background-color:transparent;
+}
+
+
+.top {
+    margin-bottom: 20px;
+}
+
+#form-user {
+    height: 200px;
+}
+
+label {
+    display: inline-block;
+    width: 20%;
+}
+
+input {
+    width: 50%;
+}
+
+button {
+    color:#fff;background-color:#4CAF50;border-color:#4CAF50;padding: 4px 12px;
+}
+
+button:hover {
+    color:#000;background-color:#FFF;border-color:#FFF
+}
+
+#form-user {
+    border: 1px solid #999;
+    display: none;
+    background: #EEE;
+    color: #000;
+}
+
+#form-user > form {
+    margin-left: 20px;
+}
+
+#form-user > form > p:last-child {
+    text-align: left;
+    padding-left: 20.5%;
+}
+
+#form-user > form > p:last-child > button {
+    width: 15%;
+}
+
+#edit {
+    color:#fff;
+    background-color:#17a2b8;
+    border-color:#17a2b8;
+}
+
+#edit:hover {
+    color:#fff;
+    background-color:#138496;
+    border-color:#117a8b;
+}
+
+#delete {
+    color:#fff;
+    background-color:#dc3545;
+    border-color:#dc3545;
+}
+
+#delete:hover {
+    color:#fff;
+    background-color:#c82333;
+    border-color:#bd2130;
+}
